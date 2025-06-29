@@ -1,11 +1,12 @@
 # AI-Powered Astronaut Medical Advisor
 
-This project is an interactive web application that provides medical recommendations for astronauts based on research papers. It leverages [Chroma DB](https://www.trychroma.com/) for semantic search, Google Gemini for LLM-powered recommendations, and [Streamlit](https://streamlit.io/) for the user interface.
+This project is an interactive web application that provides medical recommendations for astronauts based on research papers. It leverages [Chroma DB](https://www.trychroma.com/) for semantic search, Google Gemini for LLM-powered recommendations, Google Search API for web search capabilities and [Streamlit](https://streamlit.io/) for the user interface.
 
 ## Features
 
 - **Semantic Search:** Retrieves the most relevant medical research papers from a local Chroma DB vector database based on user queries.
 - **LLM Recommendations:** Uses Google Gemini to generate tailored medical advice using the retrieved research context.
+- **Web Search Integration:** Uses Google's Search API for enhanced recommendations with web search
 - **User-Friendly UI:** Built with Streamlit for easy interaction and visualization.
 
 ## Usage
